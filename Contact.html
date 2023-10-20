@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Pâtisserie à la Cami</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="Bakery.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">
+        <img
+          src="file:///Users/vikorita/Documents/WEB DEVELOPER PORTFOLIO /BAKERY/LOGO.png"
+          width="50"
+      /></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="TheChef.html">The Chef</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Accueil.html">FR</a></li>
+      </ul>
+    </nav>
+    <div class="form">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>GET IT TOUCH!</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="text" id="email" placeholder="Email" required />
+        <input type="text" id="phone" placeholder="Phone Number" required />
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="How can we help you?"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <footer>
+      <p>© 2023 Pâtisserie à la Cami | All rights reserved</p>
+    </footer>
+  </body>
+</html>
